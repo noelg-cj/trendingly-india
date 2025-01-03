@@ -1,12 +1,15 @@
 {
   "name": "trendingly-india",
   "version": "1.0.0",
-  "description": "Website for a influencer marketing agency",
+  "description": "Website for an influencer marketing agency",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
-    "build": "next build"
+    "build": "next build",
+    "build:css": "tailwindcss build src/styles/tailwind.css -o src/styles/output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +27,7 @@
   "devDependencies": {
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "gh-pages": "^5.0.0"
   }
 }
