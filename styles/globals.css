@@ -3,6 +3,51 @@
 @tailwind utilities;
 
 /* Custom styles */
-.fade-in {
-  @apply animate-fadeIn;
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-black font-medium  py-[10px] px-[42px] rounded-lg w-fit;
+  }
+
+  .btn-secondary {
+    @apply text-primary font-bold py-2 px-4 rounded-lg border border-primary;
+  }
+  .bento-box {
+    @apply bg-black shadow-md rounded-lg px-10 sm:px-14 sm:py-20 py-10 text-white flex flex-col gap-[14px];
+  }
+  .landing-sections {
+    @apply container mx-auto text-white flex flex-col text-center sm:w-1/2 gap-8;
+  }
+  .landing-sections p {
+    @apply text-xl sm:text-3xl font-thin sm:font-normal;
+  }
+  .landing-sections h1 {
+    @apply text-5xl sm:text-8xl font-medium;
+  }
+}
+
+/* Custom Font */
+@font-face {
+  font-family: "canicule";
+  src: url("/fonts/Canicule.ttf") format("truetype");
+
+  font-weight: 100 900; /* Adjust according to the font's weight range */
+  font-style: normal;
+}
+@font-face {
+  font-family: "sherman";
+  src: url("/fonts/Sherman.ttf") format("truetype");
+
+  font-weight: 100 900; /* Adjust according to the font's weight range */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Variable.woff2") format("woff2"),
+    url("/fonts/Satoshi-Variable.woff") format("woff");
+  font-weight: 100 900; /* Adjust according to the font's weight range */
+  font-style: normal;
+}
+body {
+  font-family: "Satoshi", sans-serif;
 }
