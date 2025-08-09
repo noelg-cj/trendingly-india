@@ -42,9 +42,7 @@ export default function Home() {
             Re-Inventing Digital
           </h1>
           <p className="mt-4 text-base sm:text-lg text-white max-w-lg sm:max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet consectetur. Non pellentesque dignissim
-            egestas enim rutrum sed leo posuere. Nunc et eget risus enim metus
-            fermentum at pellentesque.
+            Trendingly bridges digital influencers and brands, unlocking exclusive marketing opportunities. Join us to amplify your reach, secure premium gigs, and become a vital part of the future of digital influence
           </p>
         </motion.div>
       </div>
@@ -62,14 +60,10 @@ export default function Home() {
           {/* Right Column */}
           <div className="w-full lg:w-3/5 flex items-center">
             <p className="text-sm sm:text-lg text-gray-600">
-              Lorem ipsum dolor sit amet consectetur. Tristique in eget habitant
-              cras fermentum laoreet. Mi ullamcorper purus felis sit. Hendrerit
-              nam mauris hac natoque. Fames non in amet bibendum magna sit
-              adipiscing. Gravida nunc netus fermentum consectetur non quam.
-              Tempor viverra mauris semper sagittis nisi cras in. Lacus
-              scelerisque praesent ultrices neque ipsum consequat. Mauris in
-              sociis tincidunt vitae consequat sit lacinia. A dignissim egestas
-              porttitor ac varius eget.
+              At Trendingly, we believe in transforming the digital landscape by connecting influencers and brands seamlessly. Whether you're a rising star or an established content creator, our platform offers the perfect opportunities to elevate your influence.
+              Join a community that thrives on innovation, collaboration, and growth. Discover new partnerships, unlock exclusive gigs, and take your digital presence to the next level.
+              Let's shape the future of digital influence together. Welcome to Trendingly—where your influence becomes impact!
+
             </p>
           </div>
         </div>
